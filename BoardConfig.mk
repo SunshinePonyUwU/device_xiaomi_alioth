@@ -34,3 +34,6 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/framework_compatibi
 
 # Inherit from the proprietary version
 include vendor/xiaomi/alioth/BoardConfigVendor.mk
+
+# Firmware
+-include vendor/xiaomi/alioth-firmware/BoardConfigVendor.mk
