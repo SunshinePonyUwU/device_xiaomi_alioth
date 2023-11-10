@@ -19,7 +19,7 @@
     <overlay
         android:isStatic="true"
         android:priority="800"
-        android:requiredSystemPropertyName="ro.boot.hwc"
-        android:requiredSystemPropertyValue="GLOBAL"
+        android:requiredSystemPropertyName="ro.product.model"
+        android:requiredSystemPropertyValue="M2012K11AG"
         android:targetPackage="com.android.providers.settings" />
 </manifest>

@@ -14,12 +14,12 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.providers.settings.M2012K11AI">
+    package="com.android.providers.settings.M2012K11AC">
 
     <overlay
         android:isStatic="true"
         android:priority="800"
-        android:requiredSystemPropertyName="ro.boot.hwc"
-        android:requiredSystemPropertyValue="INDIA"
+        android:requiredSystemPropertyName="ro.product.model"
+        android:requiredSystemPropertyValue="M2012K11AC"
         android:targetPackage="com.android.providers.settings" />
 </manifest>
