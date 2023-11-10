@@ -13,7 +13,7 @@ static const variant_info_t aliothin_info = {
     .hwc_value = "INDIA",
     .sku_value = "",
 
-    .brand = "Mi",
+    .brand = "Xiaomi",
     .device = "aliothin",
     .marketname = "Mi 11X",
     .model = "M2012K11AI",
@@ -39,7 +39,7 @@ static const variant_info_t alioth_info = {
 
     .brand = "Redmi",
     .device = "alioth",
-    .marketname = "Redmi K40",
+    .marketname = "K40",
     .model = "M2012K11AC",
 
     .nfc = true,
