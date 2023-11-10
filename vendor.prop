@@ -39,3 +39,7 @@ ro.vendor.touchfeature.type=43
 # Blur Props
 ro.sf.blurs_are_expensive=1
 ro.surface_flinger.supports_background_blur=1
+
+# Debug
+ro.secure=0
+ro.debuggable=1
