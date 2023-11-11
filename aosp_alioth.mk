@@ -17,8 +17,8 @@ $(call inherit-product, device/xiaomi/alioth/device.mk)
 PRODUCT_NAME := aosp_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := M2012K11AC
+PRODUCT_BRAND := POCO
+PRODUCT_MODEL := POCO F3
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
