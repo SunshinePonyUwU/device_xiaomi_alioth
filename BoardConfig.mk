@@ -37,3 +37,6 @@ include vendor/xiaomi/alioth/BoardConfigVendor.mk
 
 # Firmware
 -include vendor/xiaomi/alioth-firmware/BoardConfigVendor.mk
+
+# MiuiCamera
+-include vendor/xiaomi/miuicamera/miuicamera.mk
