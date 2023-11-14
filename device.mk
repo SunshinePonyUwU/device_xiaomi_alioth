@@ -49,3 +49,9 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
+
+# MiuiCamera (https://gitlab.com/hdzungx/android_vendor_xiaomi_miuicamera)
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/miuicamera.mk)
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.product.mod_device=alioth_global
